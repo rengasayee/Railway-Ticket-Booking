@@ -1,0 +1,128 @@
+body,p,ul,li,nav,h2,h3{
+    font-family: arial;
+    font-size: 1.04em;
+}
+nav ul li{
+    width: 15%;
+    display:inline-block;
+}
+nav ul{
+    background-color: khaki;
+    white-space: nowrap;
+}
+nav ul:hover{
+    border:4px dashed red;
+    background-color: aquamarine;
+}
+.pnr{
+    position:relative;
+    left: 300px;
+    bottom: 100px;
+    color: aliceblue;
+}
+.vacancy{
+    position: relative;
+    left: 20px;
+    text-align: center;
+    bottom: 100px;
+    color: aliceblue;
+}
+.from{
+    position: relative;
+    left: 20px;
+}
+.forms{
+    position:relative;
+    left: 300px;
+    width: 51.8%;
+    display: inline-block;
+    /* white-space:nowrap; */
+    border: 4px solid red;
+    /* margin: 0px auto; */
+    background-color: bisque;
+    text-align: left;
+    bottom: 120px;
+}
+.date{
+    position:relative;
+    left: 4px;
+}
+.to{
+    position: relative;
+    left: 20px;
+}
+.classes{
+    position: relative;
+    left: 20px;
+}
+.category{
+    position: relative;
+    left: 20px;
+}
+.search{
+    position: relative;
+    left: 20px;
+}
+.para1{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid green;
+    color: red;
+    /* bottom: 100px; */
+}
+span{
+    color:blue;
+}
+.links{
+    background-color: seagreen;
+}
+body{
+    background-color: lightblue;
+}
+img{
+    position:relative;
+    left: 0px;
+    top: 10px;
+    image-orientation: flip;
+    display: inline;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    font-size: 1.2em;
+}
+.foot ul{
+    position: relative;
+    bottom: 10px;
+    background-color: firebrick;
+}
+form.suggestion{
+    bottom: 30px;
+    background-color: rebeccapurple;
+    display: inline-block;
+}
+p.about::first-line{
+    color:darkblue;
+    background-color: yellow;
+    display:inline-block;
+    /* border: 4px solid brown; */
+}
+.about{
+    border: 4px dashed brown;
+}
+textarea:hover{
+    color:red;
+    border: 5px solid mediumseagreen;
+    margin: 20px 4px;
+    padding: 20px;
+}
+h3{
+    width: 35%;
+    white-space: nowrap;
+    display: inline-block;
+    border: 3px solid red;
+    background-color: darkblue;
+    /* margin: 0 auto; */
+    bottom:90px;
+}

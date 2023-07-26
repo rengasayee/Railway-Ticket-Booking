@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to= "/train booking.html"
+status = 200

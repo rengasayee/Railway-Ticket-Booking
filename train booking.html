@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RAILWAY TICKET BOOKING</title>
+        <link rel="stylesheet" href="ticket.css">
+    </head>
+    
+    <body>
+
+        <nav class="links">
+            <ul>
+                <li><a href="login.html" class="login">LOGIN</a></li>
+                <li><a href="register.html" class="register">REGISTER</a></li>
+                <li><a href="agentlogin.html" class="agentlogin">AGENT LOGIN</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+                <li><a href="ask disha.html">ASK DISHA</a></li>
+                <li><a href="alerts.html">ALERTS</a></li>
+             </ul>
+        </nav>
+        <img src="irctc.jpg" alt="irctcimg" width="100" height="100" >
+
+        <div>
+            <form>
+                <h3 class="pnr">PNR STATUS</h3>
+                <h3 class="vacancy">CHARTS/VACANCY</h3>
+                <br>
+    
+                <div class="forms">
+                    <h2>BOOK TICKET</h2>
+                    <br>
+    
+                    <label for="from">FROM</label>
+                    <select name="from" id="from"  class="from">
+                        <option value="CHENNAI">CHENNAI</option>
+                        <option value="BANGALORE">BANGALORE</option>
+                        <option value="MUMBAI">MUMBAI</option>
+                    </select>
+                    <br><br>
+                    
+                    <label for="date">DEPARTURE DATE</label>
+                    <input type="date" id="date" class="date">
+                    <br><br>
+    
+                    <label for="to">TO</label>
+                    <select name="to" id="to" class="to">
+                        <option value="AGRA">AGRA</option>
+                        <option value="KOLKATA">KOLKATA</option>
+                        <option value="KANPUR">KANPUR</option>
+                    </select>
+                    <br><br>
+    
+                    <label for="classes">ALL CLASSES</label>
+                    <select name="classes" id="classes" class="classes">
+                        <option value="SLEEPER">SLEEPER</option>
+                        <option value="2nd SITTING">2ND SITTING</option>
+                        <option value="3rd AC">3RD AC</option>
+                    </select>
+                    <br><br>
+    
+                    <label for="category">CATEGORY</label>
+                    <select name="category" id="category" class="category">
+                        <option value="GENERAL">GENERAL</option>
+                        <option value="TATKAL">TATKAL</option>
+                        <option value="LADIES">LADIES</option>
+                    </select>
+                    <br><br>
+    
+                    <label for="search">SEARCH</label>
+                    <input type="submit" id="search" value="SEARCH FOR TRAINS" class="search">
+
+    
+                </div>
+            </form>
+
+            <p class="para1">Customers are requested to contact only on IRCTC's authorised contact no./Email id (Contact No.:14646 OR 0755-6610661 / 0755-4090600, Email: care@irctc.co.in), for assistance regarding ticket booking, refund or forgot user-id/password. Beware of fraudulent sites offering assistance.
+                <br><span>Please check the alert section regarding restoration of AC 3-tier economy fare.</span></p>
+            <br><br>
+            <form class="suggestion">
+                <label for="feedback">FEEDBACK</label>
+                <br>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="PLEASE WRITE SUGGESTION"></textarea>
+
+                <select name="passeneger" id="passenger">
+                    <option value=""></option>
+                </select>
+            </form>
+        </div>
+
+        <footer>
+            <nav class="foot">
+                <ul>
+                    <li><a href="enquiries.html">ENQUIRIES</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="generainfo.html">GENERAL INFORAMTION</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
